@@ -1,85 +1,112 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang='fr'>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 <title>Watch Collection</title>
 <style>
-body {
-    font-family: 'Georgia', serif;
-    background: #1a1a1a;
-    color: #e0e0e0;
-    padding: 20px;
-}
-.container { max-width: 1400px; margin: auto; }
-header { text-align: center; padding: 40px; border-bottom: 2px solid #d4af37; }
-h1 { color: #d4af37; font-size: 3em; }
-.watch-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 40px;
-}
-.watch-card {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(212,175,55,0.2);
-    border-radius: 15px;
-    overflow: hidden;
-}
-.watch-image img { width: 100%; height: 300px; object-fit: contain; background: #2a2a2a; }
-.watch-content { padding: 20px; }
-.watch-brand { color: #d4af37; text-transform: uppercase; font-size: 0.9em; }
-.watch-name { font-size: 1.4em; color: white; }
-.watch-price { color: #d4af37; margin-bottom: 10px; font-weight: bold; }
+body { font-family: Georgia, serif; background:#1a1a1a; color:#e0e0e0; padding:20px; }
+.container { max-width:1400px; margin:auto; }
+header { text-align:center; padding:40px; border-bottom:2px solid #d4af37; }
+h1 { color:#d4af37; font-size:3em; }
+.watch-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); gap:40px; }
+.watch-card { background:rgba(255,255,255,0.05); border:1px solid rgba(212,175,55,0.2); border-radius:15px; overflow:hidden; }
+.watch-image img { width:100%; height:300px; object-fit:contain; background:#2a2a2a; }
+.watch-content { padding:20px; }
+.watch-brand { color:#d4af37; text-transform:uppercase; font-size:0.9em; }
+.watch-name { font-size:1.4em; color:white; }
+.watch-price { color:#d4af37; margin-bottom:10px; font-weight:bold; }
+.specs { margin-top:10px; color:#aaa; font-size:0.9em; }
 </style>
 </head>
 <body>
-<div class="container">
+<div class='container'>
 <header>
 <h1>Watch Collection</h1>
-<p class="subtitle">A Curated Selection</p>
+<p class='subtitle'>A curated selection</p>
 </header>
 
-<div class="watch-grid">
-<div class="watch-card">
-<div class="watch-image"><img src="images/longines-conquest-38.png"></div>
-<div class="watch-content"><div class="watch-brand">Longines</div><div class="watch-name">Conquest 38mm</div><div class="watch-price">≈ 2350 €</div></div>
-</div>
+<div class='watch-grid'>
 
-<div class="watch-card">
-<div class="watch-image"><img src="images/marchlab-mansart.jpg"></div>
-<div class="watch-content"><div class="watch-brand">March LA.B</div><div class="watch-name">Mansart Petite Seconde</div><div class="watch-price">≈ 1995 €</div></div>
-</div>
+<div class='watch-card'>
+<div class='watch-image'><img src='images/longines-conquest-38.png'></div>
+<div class='watch-content'>
+<div class='watch-brand'>Longines</div>
+<div class='watch-name'>Conquest 38mm</div>
+<div class='watch-price'>≈ 2350 €</div>
+<p>Une montre sport‑chic polyvalente, parfaite au quotidien.</p>
+<div class='specs'>38 mm · 10.9 mm épaisseur · 46.5 mm L2L</div>
+</div></div>
 
-<div class="watch-card">
-<div class="watch-image"><img src="images/longines-spirit-39.png"></div>
-<div class="watch-content"><div class="watch-brand">Longines</div><div class="watch-name">Spirit Zulu Time 39mm</div><div class="watch-price">≈ 3350 €</div></div>
-</div>
+<div class='watch-card'>
+<div class='watch-image'><img src='images/marchlab-mansart.jpg'></div>
+<div class='watch-content'>
+<div class='watch-brand'>March LA.B</div>
+<div class='watch-name'>Mansart Petite Seconde</div>
+<div class='watch-price'>≈ 1995 €</div>
+<p>Son boîtier octogonal inspiré de la Place Vendôme lui donne une vraie identité.</p>
+<div class='specs'>35×39 mm · 10 mm épaisseur · 44 mm L2L</div>
+</div></div>
 
-<div class="watch-card">
-<div class="watch-image"><img src="images/marchlab-am69.jpg"></div>
-<div class="watch-content"><div class="watch-brand">March LA.B</div><div class="watch-name">AM69 Automatic</div><div class="watch-price">≈ 1500 €</div></div>
-</div>
+<div class='watch-card'>
+<div class='watch-image'><img src='images/longines-spirit-39.png'></div>
+<div class='watch-content'>
+<div class='watch-brand'>Longines</div>
+<div class='watch-name'>Spirit 37mm</div>
+<div class='watch-price'>≈ 2600 €</div>
+<p>Inspirée des montres d’aviation, elle offre un équilibre parfait au poignet.</p>
+<div class='specs'>37 mm · 11.7 mm épaisseur · 45 mm L2L</div>
+</div></div>
 
-<div class="watch-card">
-<div class="watch-image"><img src="images/frederique-constant-moneta.png"></div>
-<div class="watch-content"><div class="watch-brand">Frédérique Constant</div><div class="watch-name">Moneta Moonphase</div><div class="watch-price">≈ 1050 €</div></div>
-</div>
+<div class='watch-card'>
+<div class='watch-image'><img src='images/marchlab-am69.jpg'></div>
+<div class='watch-content'>
+<div class='watch-brand'>March LA.B</div>
+<div class='watch-name'>AM69 Automatic</div>
+<div class='watch-price'>≈ 1500 €</div>
+<p>Une montre vintage moderne, élégante et compacte.</p>
+<div class='specs'>36 mm · 11 mm épaisseur · 44 mm L2L</div>
+</div></div>
 
-<div class="watch-card">
-<div class="watch-image"><img src="images/omega-speedmaster-reduced.png"></div>
-<div class="watch-content"><div class="watch-brand">Omega</div><div class="watch-name">Speedmaster Reduced</div><div class="watch-price">≈ 2300 €</div></div>
-</div>
+<div class='watch-card'>
+<div class='watch-image'><img src='images/frederique-constant-moneta.png'></div>
+<div class='watch-content'>
+<div class='watch-brand'>Frédérique Constant</div>
+<div class='watch-name'>Moneta Moonphase</div>
+<div class='watch-price'>≈ 1050 €</div>
+<p>Une dress watch raffinée et fine, avec une jolie phase de lune.</p>
+<div class='specs'>37 mm · 9 mm épaisseur · 42 mm L2L</div>
+</div></div>
 
-<div class="watch-card">
-<div class="watch-image"><img src="images/nivada-antarctic-35.jpg"></div>
-<div class="watch-content"><div class="watch-brand">Nivada Grenchen</div><div class="watch-name">Antarctic 35mm</div><div class="watch-price">≈ 1140 €</div></div>
-</div>
+<div class='watch-card'>
+<div class='watch-image'><img src='images/omega-speedmaster-reduced.png'></div>
+<div class='watch-content'>
+<div class='watch-brand'>Omega</div>
+<div class='watch-name'>Speedmaster Reduced</div>
+<div class='watch-price'>≈ 2300 €</div>
+<p>Version compacte de la Moonwatch, iconique et facile à porter.</p>
+<div class='specs'>39 mm · 12 mm épaisseur · 45 mm L2L</div>
+</div></div>
 
-<div class="watch-card">
-<div class="watch-image"><img src="images/doxa-200t-yellow.png"></div>
-<div class="watch-content"><div class="watch-brand">Doxa</div><div class="watch-name">Sub 200T Yellow</div><div class="watch-price">1590 €</div></div>
-</div>
+<div class='watch-card'>
+<div class='watch-image'><img src='images/nivada-antarctic-35.jpg'></div>
+<div class='watch-content'>
+<div class='watch-brand'>Nivada Grenchen</div>
+<div class='watch-name'>Antarctic 35mm</div>
+<div class='watch-price'>≈ 1140 €</div>
+<p>Réédition fidèle d’un modèle historique, au charme vintage.</p>
+<div class='specs'>35 mm · 11.1 mm épaisseur · 44 mm L2L</div>
+</div></div>
+
+<div class='watch-card'>
+<div class='watch-image'><img src='images/doxa-200t-yellow.png'></div>
+<div class='watch-content'>
+<div class='watch-brand'>Doxa</div>
+<div class='watch-name'>Sub 200T Yellow</div>
+<div class='watch-price'>1590 €</div>
+<p>Une plongeuse fun, colorée et très confortable au quotidien.</p>
+<div class='specs'>39 mm · 10.7 mm épaisseur · 46 mm L2L</div>
+</div></div>
 
 </div>
 </div>
